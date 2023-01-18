@@ -45,7 +45,7 @@
 
                     @endforeach
 
-                    {{$comments->links()}}
+                    {{$comments->links('pagination::bootstrap-5')}}
 
                 </div>
             </div>
